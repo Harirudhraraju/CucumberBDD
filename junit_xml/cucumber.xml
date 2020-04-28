@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="1" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="75.824534">
+<testcase classname="Free CRM Create Contacts" name="Free CRM New Contact Scenario" time="53.062166">
+<system-out><![CDATA[Given user is already on Login Page.........................................passed
+When title of login page is Free CRM........................................passed
+Then user enters "batchautomation" and "Test@12345".........................passed
+Then user clicks on login button............................................passed
+Then user is on home page...................................................passed
+Then user moves to new contact page.........................................passed
+Then user enters contact details "Tom" and "Peter" and "Manager"............passed
+Then close the browser......................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Free CRM Create Contacts" name="Free CRM New Contact Scenario 2" time="22.762368">
+<failure message="org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;input type=&quot;submit&quot; value=&quot;Login&quot; class=&quot;btn btn-small&quot;&gt; is not clickable at point (1299, 117). Other element would receive the click: &lt;div id=&quot;preloader&quot;&gt;...&lt;/div&gt;&#10;  (Session info: chrome=81.0.4044.122)&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'HARIRAJU-PC', ip: '192.168.43.37', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_231'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 81.0.4044.122, chrome: {chromedriverVersion: 80.0.3987.16 (320f6526c1632..., userDataDir: C:\Users\HARIRA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:59985}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: eager, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}&#10;Session ID: 19bedb94c8d5d00f0b95585a873fd1e4&#13;&#10;&#9;at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)&#13;&#10;&#9;at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)&#13;&#10;&#9;at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)&#13;&#10;&#9;at java.lang.reflect.Constructor.newInstance(Constructor.java:423)&#13;&#10;&#9;at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)&#13;&#10;&#9;at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)&#13;&#10;&#9;at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)&#13;&#10;&#9;at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)&#13;&#10;&#9;at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)&#13;&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)&#13;&#10;&#9;at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)&#13;&#10;&#9;at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)&#13;&#10;&#9;at stepDefinitions.LoginStepDefinition.user_clicks_on_login_button(LoginStepDefinition.java:52)&#13;&#10;&#9;at ✽.Then user clicks on login button(C:/Users/Hari Raju/eclipse-workspace/FreeCRMBDD/src/main/java/Features/contacts.feature:8)&#13;&#10;"><![CDATA[Given user is already on Login Page.........................................passed
+When title of login page is Free CRM........................................passed
+Then user enters "batchautomation" and "Test@12345".........................passed
+Then user clicks on login button............................................failed
+Then user is on home page...................................................skipped
+Then user moves to new contact page.........................................skipped
+Then user enters contact details "David" and "Dsouza" and "Director"........skipped
+Then close the browser......................................................skipped
+
+StackTrace:
+org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <input type="submit" value="Login" class="btn btn-small"> is not clickable at point (1299, 117). Other element would receive the click: <div id="preloader">...</div>
+  (Session info: chrome=81.0.4044.122)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'HARIRAJU-PC', ip: '192.168.43.37', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_231'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 81.0.4044.122, chrome: {chromedriverVersion: 80.0.3987.16 (320f6526c1632..., userDataDir: C:\Users\HARIRA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:59985}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: eager, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 19bedb94c8d5d00f0b95585a873fd1e4
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at stepDefinitions.LoginStepDefinition.user_clicks_on_login_button(LoginStepDefinition.java:52)
+	at ✽.Then user clicks on login button(C:/Users/Hari Raju/eclipse-workspace/FreeCRMBDD/src/main/java/Features/contacts.feature:8)
+]]></failure>
+</testcase>
+</testsuite>
